@@ -1,0 +1,168 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+
+<!-- InstanceBegin template="/Templates/general.dwt" codeOutsideHTMLIsLocked="false" -->
+
+<!-- InstanceBeginEditable name="doctitle" --><!-- InstanceEndEditable -->
+<title>Database Management Systems</title>
+<meta name="keywords" content="AI">
+<meta name="description" content="Trí tu&#7879; nhân t&#7841;o">
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+<link href="../AI/AI_lectures/style.css" rel="stylesheet" type="text/css">
+</head><body>
+<table class="textbox" align="center" width="800">
+  <tbody><tr>
+    <td class="title" align="center"><p style="margin-top: 0; margin-bottom: 0"><font size="5">Website môn h&#7885;c: 
+	H&#7879; qu&#7843;n tr&#7883; C&#417; s&#7903; d&#7919; li&#7879;u <br>
+	(Database Management Systems)</font></p>
+	</td>
+  </tr>
+</tbody></table>
+<table height="8px"></table>
+<table align="center" cellpadding="8px" cellspacing="8px" width="816">
+  <tbody><tr>
+	<td class="textbox" align="justify" valign="top">
+	<!-- InstanceBeginEditable name="body" -->
+      <h3>Instructor:</h3>
+      <blockquote>
+        <table border="0" width="90%">
+          <tbody><tr>
+            <td width="150px"><p>Name:<br>
+              Email:<br>
+              Phone:<br>
+              Office:<br>
+              Office Hours:</p></td>
+            <td>Pham Tho Hoan &amp; Nguyen Thi Phuong Dung<br>
+                {hoanpt, dungntp} (at) hnue (dot) edu (dot) vn<br>
+              &nbsp;<br>
+              602 K1 Building<br>
+              Fridays &amp; Wednesdays :: 8:30 - 11:30 </td>
+          </tr>
+        </tbody></table>
+        </blockquote>
+	<h3>References: (Click <a href="REF">Here</a>)</h3>
+      <blockquote>
+        <table border="0" width="90%">
+          <tbody><tr>
+            <td>
+			<p style="text-indent: -.38in; text-align: left; direction: ltr; unicode-bidi: embed; vertical-align: baseline; margin-left: .38in; margin-top: 0; margin-bottom: 0">
+			<span style="font-family: Times New Roman; color: black">[1] V&#361; 
+			Tuy&#7871;t Trinh, SQL Server 2008 (Slides bài gi&#7843;ng)</span></p>
+			<p style="text-indent: -.38in; text-align: left; direction: ltr; unicode-bidi: embed; vertical-align: baseline; margin-left: .38in; margin-top: 0; margin-bottom: 0">
+			<span style="font-family: Times New Roman; color: black">[2] Lê Th&#7883; 
+			Tú Kiên, H&#7879; qu&#7843;n tr&#7883; C&#417; s&#7903; d&#7919; li&#7879;u (Slides bài gi&#7843;ng)</span></p>
+			<p style="text-indent: -.38in; text-align: left; direction: ltr; unicode-bidi: embed; vertical-align: baseline; margin-left: .38in; margin-top: 0; margin-bottom: 0">
+			<span style="font-family: Times New Roman">[3] </span>
+			<span style="font-family: Times New Roman; color: black">
+			<a href="REF/HeQTCSDL.pdf">T&#7841; Th&#7883; Thu Ph&#432;&#7907;ng, H&#7879; qu&#7843;n tr&#7883; C&#417; s&#7903; d&#7919; 
+			li&#7879;u (bài gi&#7843;ng tóm t&#7855;t)</a>, &#272;H &#272;à L&#7841;t 2009</span></p>
+			<p style="text-indent: -.38in; text-align: left; direction: ltr; unicode-bidi: embed; vertical-align: baseline; margin-left: .38in; margin-top: 0; margin-bottom: 0">
+			<span style="font-family: Times New Roman; color: black">[4]
+			<a href="REF/HeQTCSDLSQLSERVER.pdf">Nguy&#7877;n V&#432;&#417;ng Th&#7883;nh, Bài gi&#7843;ng H&#7879; 
+			qu&#7843;n tr&#7883; C&#417; s&#7903; d&#7919; li&#7879;u</a>, &#272;H Hàng H&#7843;i - H&#7843;i Phòng, 2008</span></p>
+			<p style="text-indent: -.38in; text-align: left; direction: ltr; unicode-bidi: embed; vertical-align: baseline; margin-left: .38in; margin-top: 0; margin-bottom: 0">
+			<span style="font-family: Times New Roman">[5]
+			<a href="REF/thegurusguidetotransactsql2000.pdf">The Gurus guide to 
+			transact-sql 2000</a> (R&#7845;t hay n&#7871;u &#273;&#7885;c &#273;&#432;&#7907;c ti&#7871;ng Anh)</span></p>
+			<p style="text-indent: -.38in; text-align: left; direction: ltr; unicode-bidi: embed; vertical-align: baseline; margin-left: .38in; margin-top: 0; margin-bottom: 0">
+			<span style="font-family: Times New Roman">[6]
+			<a href="http://manuals.sybase.com/onlinebooks/group-as/asg1250e/sqlug/@Generic__BookView">
+			Sysbase Transact-SQL User's guide</a></span></p></td>
+          </tr>
+        </tbody></table>
+        </blockquote>
+	<h3>Summary:</h3>
+      <blockquote>
+        <table border="0" width="90%">
+          <tbody><tr>
+            <td>
+	Môn h&#7885;c gi&#7899;i thi&#7879;u các n&#7897;i dung liên quan &#273;&#7871;n vi&#7879;c t&#7893; ch&#7913;c, bi&#7875;u di&#7877;n, c&#7853;p 
+	nh&#7853;t và khai thác thông tin trên m&#7897;t h&#7879; qu&#7843;n tr&#7883; c&#417; s&#7903; d&#7919; li&#7879;u quan h&#7879; -
+	<a href="REF/SQLserver_installer/SQLEXPR.EXE">SQL server</a>. N&#7897;i dung chính 
+	g&#7891;m cách th&#7913;c qu&#7843;n tr&#7883; (t&#7841;o m&#7899;i, c&#7853;p nh&#7853;t, tìm ki&#7871;m và truy v&#7845;n, xóa) c&#417; s&#7903; 
+	d&#7919; li&#7879;u và các thành ph&#7847;n c&#7911;a nó (b&#7843;ng d&#7919; li&#7879;u, b&#7843;ng &#7843;o, b&#7843;ng ch&#7881; m&#7909;c, th&#7911; 
+	t&#7909;c th&#432;&#7901;ng trú, v.v.) b&#7857;ng các câu l&#7879;nh SQL và b&#7857;ng công c&#7909; tr&#7921;c quan
+	<a href="REF/SQLserver_installer/SQLServer2005_SSMSEE.msi">SQL Server 
+	Management Studio</a>.</td>
+          </tr>
+        </tbody></table>
+        </blockquote>
+	<h3>Contents &amp; Lectures: <span style="font-weight: 400">
+	<a href="SQL_examples">(các file sql &#273;i kèm bài gi&#7843;ng down t&#7841;i &#273;ây)</a></span></h3>
+      <blockquote>
+        <table border="0" width="90%">
+          <tbody><tr>
+            <td>
+        <ul>
+          <li>Lec 1: Gi&#7899;i thi&#7879;u (<a href="Introduction.ppt">PPT</a>)</li>
+			<li>Lec 2: T-SQL for Data Definition (<a href="TSQL_DDL.ppt">PPT</a>)</li>
+			<li>Lec 3: T-SQL for Data Definition &amp; Data Manipulation (Ti&#7871;ng Vi&#7879;t,
+			<a href="SQL.ppt">PPT</a>)</li>
+			<li>Lec 4: Indexes (<a href="Index.ppt">PPT</a>), Data Integrity (<a href="DataIntegrity.ppt">PPT</a>)</li>
+			<li>Lec 5: L&#7853;p trình T-SQL (<a href="LAP_TRINH_TSQL.ppt">PPT</a>)</li>
+			<li>Lec 6: View, Stored Procedure, User Definited Function, Trigger 
+			(<a href="VIEW_SP_TRIGGER_UDF.ppt">PPT</a>)</li>
+			<li>Lec 7: T-SQL for Data Control&nbsp; (<a href="TSQL_DCL.ppt">PPT</a>)</li>
+			<li>Lec 8: Transaction and Lock</li>
+			<wbr>
+        </ul></td>
+          </tr>
+        </tbody></table>
+        </blockquote>
+	<h3>Assignments:</h3>
+      <blockquote>
+        <table border="0" width="90%">
+          <tbody><tr>
+            <td>
+        1. Cài &#273;&#7863;t ph&#7847;n m&#7873;m SQL Server và SQL Server Management Studio (<a href="REF/SQLserver_installer/">Download 
+		t&#7915; &#273;ây</a>)<p>2. S&#7917; d&#7909;ng SQL Server Management Studio và sqlcmd (start 
+		--&gt; run --&gt; cmd --&gt; sqlcmd) &#273;&#7875; connect v&#7899;i SQL Server</p>
+		<p>3. Cài &#273;&#7863;t 2 c&#417; s&#7903; d&#7919; li&#7879;u m&#7851;u (có d&#7919; li&#7879;u): pubs và northwind vào 
+		SQL server (<a href="REF/SQL2000SampleDb.msi">download t&#7841;i &#273;ây</a>). Cài 
+		b&#7857;ng 2 cách: (1) th&#7921;c hi&#7879;n các l&#7879;nh T-SQL trong các file instpubs.sql và 
+		instnwnd.sql &#273;&#7875; sinh ra các databases, (2) attach các databases &#273;ã có 
+		s&#7861;n (PUBS.MDF, PUBS.LDF; NORTHWND.MDF, NORTHWND.LDF).</p>
+		<p>4 . Tìm hi&#7875;u c&#7845;u trúc các tables, views, stored procedures trong các 
+		c&#417; s&#7903; d&#7919; li&#7879;u pubs và northwind. T&#7841;o các data diagram t&#7915; t&#7845;t c&#7843; các b&#7843;ng 
+		trong các c&#417; s&#7903; d&#7919; li&#7879;u này.</p>
+		<p>5. Bài t&#7853;p th&#7921;c hành s&#7889; 1 (<a href="REF/Baithuchanhso1.doc">down 
+		t&#7841;i &#273;ây</a>)</p>
+		<p>6. Bài th&#7921;c hành s&#7889; 2: Th&#7921;c hi&#7879;n các câu truy v&#7845;n nâng cao trong file
+		<a href="SQLSV_2_TV_NANG_CAO.ppt">PPT (download)</a> </p>
+		<p>7. Bài th&#7921;c hành &#7903; nhà (<a href="baitap_lam_o_nha1.doc">Down t&#7841;i &#273;ây</a>)</p>
+		<p>8. Bài th&#7921;c hành s&#7889; 2 (<a href="bai_thu_hanh_2.doc">Down t&#7841;i &#273;ây</a>)</p>
+		<p>9. Bài th&#7921;c hành s&#7889; 3 (<a href="baithuchanhso3.doc">Down t&#7841;i &#273;ây</a>)</p>
+		<p>10. Bài th&#7921;c hành s&#7889; 4 (<a href="Baithuchanh4.doc">Down t&#7841;i &#273;ây</a>)</p>
+		<p>11. Bài th&#7921;c hành s&#7889; 5 (<a href="Baithuchanh5.doc">Down t&#7841;i &#273;ây</a>)</p>
+		<p>12. Th&#7921;c hành các câu l&#7879;nh SQL theo tutorial sau:</p>
+		<p><a href="http://msdn.microsoft.com/en-us/library/ms365303.aspx">
+		http://msdn.microsoft.com/en-us/library/ms365303.aspx</a></p>
+		
+			</td>
+          </tr>
+        </tbody></table>
+        </blockquote>
+	<h3>Announcements:</h3>
+      <blockquote>
+        <table border="0" width="90%">
+          <tbody><tr>
+            <td>
+        
+		</td>
+          </tr>
+        </tbody></table>
+        <p>&nbsp;</p>
+        </blockquote>
+	<!-- InstanceEndEditable -->
+      </td>
+  </tr>
+</tbody></table>
+<table height="8px"></table>
+<noscript>
+<div style="display: block; font-family: Verdana, Geneva, Arial;
+font-size: 10px">
+</div>
+</body>
+<!-- InstanceEnd --></html>
+</noscript></body></html>
